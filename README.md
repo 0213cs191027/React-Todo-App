@@ -24,7 +24,7 @@ Each click increases the `--hue` value by `10` (cycling from `10` to `255`) to g
 ## 📸 Screenshot
 
 ```md
-![Todo App Screenshot](assets/todo1.png)
-![Todo App Screenshot](assets/todo2.png)
-![Todo App Screenshot](assets/todo3.png)
+![Todo App Screenshot](src/assets/totdo%201.png)
+![Todo App Screenshot](src/assets/todo2.png)
+![Todo App Screenshot](src/assets/todo3.png)
 
