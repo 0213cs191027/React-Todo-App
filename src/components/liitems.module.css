@@ -1,0 +1,35 @@
+
+.listbtn {
+  float: right;
+  margin-left: 0.5rem;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.3rem 0.8rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.listbtn:hover {
+  background-color: var(--color-light);
+  transform: scale(1.05);
+}
+
+.listbtn:active {
+  background-color: var(--color-super-light);
+  transform: scale(0.97);
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+  background-color: var(--color-super-duper-light);
+}
+
+.subheadding {
+  text-align: center;
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}

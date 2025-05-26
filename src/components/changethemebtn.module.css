@@ -1,0 +1,30 @@
+
+.btndiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.btnn {
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btnn:hover {
+  background-color: var(--color-light);
+  transform: scale(1.05);
+}
+
+.btnn:active {
+  background-color: var(--color-super-light);
+  transform: scale(0.97);
+}
+

@@ -1,0 +1,61 @@
+.inputGroup {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+.myinput {
+  flex: 1;
+  height: 3.5rem;
+  padding: 0 1rem;
+  font-size: 1.5rem; 
+  background-color: var(--color-super-duper-light);
+  border: 2px solid var(--color-super-light);
+  border-radius: 0.4rem 0 0 0.4rem;
+  outline: none;
+  box-sizing: border-box;
+  line-height: 3.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.myinput:focus {
+  box-shadow: 0 0 0 1px var(--color-primary);
+}
+
+.addbtn {
+  height: 3.5rem;
+  padding: 0 1.2rem;
+  font-size: 1.5rem;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 0 0.4rem 0.4rem 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  line-height: 3.5rem;
+}
+
+.addbtn:hover {
+  background-color: var(--color-light);
+  transform: scale(1.05);
+}
+
+.addbtn:active {
+  background-color: var(--color-super-light);
+  transform: scale(0.97);
+}
+
+@media (max-width: 480px) {
+  .myinput {
+    font-size: 1.1rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 0.8rem;
+  }
+  .addbtn {
+    font-size: 1.1rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+  }
+}

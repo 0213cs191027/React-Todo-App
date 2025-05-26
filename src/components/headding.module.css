@@ -1,0 +1,9 @@
+.maineadding {
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
